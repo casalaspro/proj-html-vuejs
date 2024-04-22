@@ -18,6 +18,9 @@ export default{
     console.log(store);
   },
   components:{
+    AppHeader,
+    AppMain,
+    AppFooter,
 
   }
 }
@@ -26,6 +29,17 @@ export default{
 
 <template>
   <h1>Ciao Mondo</h1>
+  <navbar>
+    <AppHeader />
+   </navbar>
+
+   <main>
+    <AppMain />
+   </main>
+
+   <footer>
+    <AppFooter />
+   </footer>
 </template>
 
 <style lang="scss">
