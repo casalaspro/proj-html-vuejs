@@ -48,9 +48,10 @@ export default{
 
 footer{
   background-image: url(./assets/footer-bg.png);
-  height: 324px;
+  // height: 324px;
+  // border: 1px solid white;
   background-size: cover;
-  
+
 }
 
 

@@ -45,7 +45,7 @@ export default{
           <li><p>There are many variations of passages of form humour or randomised</p></li>
           <li class="email">
             <input type="email" name="" id="">
-            <div class="send-button"></div>
+            <a class="send-button"></a>
           </li>
 
           <li class="socials">
@@ -63,16 +63,76 @@ export default{
     </div>
   </div>
 
+  <div class="footer-infos">
+    <div class="container">
+      <div class="row">
+        <p>Copyright &copy; 2024 Boolean</p>
+        <div class="card-icons">
+          <div class="c-amex"></div>
+          <div class="c-yellow"></div>
+          <div class="c-mastercard"></div>
+          <div class="c-paypal"></div>
+          <div class="c-visa"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   
 </template>
 
 <style lang="scss" scoped>
 @use '../style/variables' as *;
-
-
+.footer-infos{
+  padding: 10px 0;
+  &:before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 9px;
+    border-top: 1px solid $separation_lines;
+  }
+  .row{
+    justify-content: space-between;
+    font-size: 10px;
+    color: $grey_text;
+    .card-icons{
+      div:not(:last-child){
+        margin-right: 7px;
+      }
+    }
+  }
+}
+.card-icons{
+  display: flex;
+  div{
+    background-image: url(../assets/payments.png);
+    background-size: 100%;
+    
+    // border: 1px solid white;
+    width: 26px;
+    height: 16px;
+    &.c-amex{
+      background-position: 0px -147px;
+    }
+    &.c-yellow{
+      background-position: 0px -122px;
+    }
+    &.c-mastercard{
+      background-position: 0px -47px;
+    }
+    &.c-paypal{
+      background-position: 0px -73px;
+    }
+    &.c-visa{
+      background-position: 0px 0px;
+    }
+  }
+}
 .footer-menu{
-  padding: 82px 0;
+  padding-top: 82px;
+  padding-bottom: 36px;
   .container{
     .row{
       .info li:hover:not(:first-child),.extras li:hover:not(:first-child){
@@ -140,6 +200,9 @@ export default{
             padding-right: 39px;
             // border-radius: 0;
             border: none;
+            &:focus-visible{
+              outline: 2px solid $company_yellow;
+            }
           }
           .send-button{
             height: 14px;
@@ -147,6 +210,8 @@ export default{
             background-image: url(../assets/newsletter.png);
             background-size: 100%;
             margin-left: -26px;
+            cursor: pointer;
+            
           }
 
         }
