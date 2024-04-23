@@ -10,9 +10,10 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 /* import specific icons */
 import { faStar as faStarReg } from '@fortawesome/free-regular-svg-icons'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import { faFacebookF, faXTwitter, faGooglePlusG, faSkype, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 /* add icons to the library */
-library.add(faStarReg, faChevronDown)
+library.add(faStarReg, faChevronDown, faFacebookF, faXTwitter, faGooglePlusG, faSkype, faInstagram)
 
 const app = createApp(App)
 

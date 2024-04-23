@@ -11,3 +11,11 @@ body{
   max-width: 920px;
   margin: 0 auto;
 }
+
+.col-3{
+  width: calc((100% / 12) * 3);
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: $titles_font;
+}

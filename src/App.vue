@@ -46,6 +46,13 @@ export default{
 @use './style/general';
 @use './style/_variables' as *;
 
+footer{
+  background-image: url(./assets/footer-bg.png);
+  height: 324px;
+  background-size: cover;
+  
+}
+
 
 
 </style>

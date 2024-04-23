@@ -4,43 +4,48 @@ export const store = reactive({
   muenuHeader:[
     {
       name: 'Home',
-      link: ''
+      link: '#'
     },
     {
       name: 'Shop',
-      link: ''
+      link: '#'
     },
     {
       name: 'Blog',
-      link: ''
+      link: '#'
     },
     {
       name: 'Media',
-      link: ''
+      link: '#'
     },
     {
       name: 'ShortCode',
-      link: ''
+      link: '#'
     },
     {
       name: 'Features',
-      link: ''
+      link: '#'
     }
 ],
   menuFooter: [{
     addressInfo: [
       {
-        address: "60 29th Street San Francisco, CA 94110 507-Union Trade Center, United States of América",
+        info: "60 29th Street San Francisco, CA 94110 507-Union Trade Center, United States of América",
         iconName: ''
       },
       {
-        telephone: "(+00) 123-456-789",
+        info: "(+00) 123-456-789",
         iconName: ''
       },
       {
-        email: "demo@example.com",
+        info: "demo@example.com",
         iconName: ''
-      }
+      },
+      {
+        name: `<font-awesome-icon :icon="['fab', 'skype']" />`,
+        iconName: '',
+        link: ''
+      } 
     ],
     informations:[
       {
@@ -111,8 +116,8 @@ export const store = reactive({
         name: 'American Express',
         iconName: '',
         link: ''
-      }
-    ]
+      },      
+         ]
 
 
   }]
