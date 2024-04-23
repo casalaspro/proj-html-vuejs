@@ -28,13 +28,13 @@ export default{
 </script>
 
 <template>
-  <h1>Ciao Mondo</h1>
-  <navbar>
+  <header>
     <AppHeader />
-   </navbar>
+   </header>
 
    <main>
     <AppMain />
+    
    </main>
 
    <footer>
@@ -44,5 +44,15 @@ export default{
 
 <style lang="scss">
 @use './style/general';
+@use './style/_variables' as *;
+
+header{
+  &::after{
+      content: "";
+      display: block;
+      border-top: 1px solid $separation-lines;
+      width: 100%;
+    }
+}
 
 </style>
