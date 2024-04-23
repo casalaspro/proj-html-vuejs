@@ -29,8 +29,8 @@ export default{
       <div class="row">
         <ul class="address col-3">
           <li><h3>Address Info</h3></li>
-          <li ><font-awesome-icon :icon="['fab', test]" /></li>
-          <li v-for="address in store.menuFooter[0].addressInfo">{{ address.info }}</li>
+          
+          <li v-for="address in store.menuFooter[0].addressInfo"><span class="icon"><font-awesome-icon :icon="['fas', address.iconName]" /></span><span>{{ address.info }}</span></li>
         </ul>
         <ul class="info col-3">
           <li><h3>Informations</h3></li>
@@ -75,13 +75,22 @@ export default{
   padding: 82px 0;
   .container{
     .row{
+      ul.address{
+        li{
+          // &:nth-child(2){
+            
+          // }
+          display: flex;
+        }
+      }
       &>*:not(:last-child){
         padding-right: 20px;
       }
       li{
         color: $grey_text;
-        font-size: 7px;
-        margin-bottom: 11px;
+        font-size: 10px;
+        // margin-bottom: 11px;
+        line-height: 20px;
         &:first-child{
           margin-bottom: 20px;
         }
@@ -99,6 +108,11 @@ export default{
             font-size: 12px;
             margin-right: 22px;
           }
+        }
+        .icon{
+          color: $company_yellow;
+          margin-right: 10px;
+          display: inline-block;
         }
       }
 

@@ -31,21 +31,16 @@ export const store = reactive({
     addressInfo: [
       {
         info: "60 29th Street San Francisco, CA 94110 507-Union Trade Center, United States of América",
-        iconName: ''
+        iconName: 'fa-location-dot'
       },
       {
         info: "(+00) 123-456-789",
-        iconName: ''
+        iconName: 'fa-phone'
       },
       {
         info: "demo@example.com",
-        iconName: ''
-      },
-      {
-        name: `<font-awesome-icon :icon="['fab', 'skype']" />`,
-        iconName: '',
-        link: ''
-      } 
+        iconName: 'fa-envelope'
+      }
     ],
     informations:[
       {
