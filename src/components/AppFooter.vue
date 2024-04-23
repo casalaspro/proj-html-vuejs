@@ -75,6 +75,9 @@ export default{
   padding: 82px 0;
   .container{
     .row{
+      .info li:hover:not(:first-child),.extras li:hover:not(:first-child){
+        color: $company_yellow;
+      }
       ul.address{
         li{
           // &:nth-child(2){
@@ -94,6 +97,9 @@ export default{
         &:first-child{
           margin-bottom: 20px;
         }
+        // &:hover:not(:first-child){
+        //   color: $company_yellow;
+        // }
         h3{
           font-family: $titles_font;
           color: $company_white;
@@ -107,6 +113,9 @@ export default{
             color: $company_white;
             font-size: 12px;
             margin-right: 22px;
+            &:hover{
+              color: $company_yellow;
+            }
           }
         }
         .icon{
