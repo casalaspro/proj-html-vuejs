@@ -46,13 +46,6 @@ export default{
 @use './style/general';
 @use './style/_variables' as *;
 
-header{
-  &::after{
-      content: "";
-      display: block;
-      border-top: 1px solid $separation-lines;
-      width: 100%;
-    }
-}
+
 
 </style>

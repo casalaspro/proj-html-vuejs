@@ -1,4 +1,6 @@
 <script>
+import AppHeadTools from './AppHeadTools.vue';
+import AppNavbar from './AppNavbar.vue';
 
 
 export default{
@@ -14,6 +16,8 @@ export default{
     
   },
   components:{
+    AppHeadTools,
+    AppNavbar
 
   }
 }
@@ -22,49 +26,37 @@ export default{
 
 <template>
 
-  <section class="head-tools">
-    <div class="container">
-      <div class="row">
-        <div class="whish-help">
-          <a href="#">Whishlist(0)</a>
-          <a href="#">Need Help? <span class="fas-icon"><font-awesome-icon :icon="['fas', 'chevron-down']" /></span></a>
-        </div>
-        <p>Call 24/7 . 800-8754-987</p>
-      </div>
-    </div>
-  </section>
+  <AppHeadTools />
+
+  <AppNavbar />
+
+
+  
   
 </template>
 
 <style lang="scss" scoped>
-@use '../style/_variables.scss' as *;
 
-.head-tools{
-  font-size: 10px;
-  .row{
-    justify-content: space-between;
-    margin: 10px 0;
 
-    .whish-help{
-    
-      .fas-icon{
-        margin-left: 4px;
-        font-size: 8px;
+.navbar{
+  .container{
+    .row{
+      ul{
+        &.menu{
+          display: flex;
+
+        }
       }
-
-      a{
-        display: inline;
-        &:nth-child(1){
-          margin: 0 26px;
-          &::after{
-            content: "";
-            display: inline;
-            border-right: 1px solid white;
-            margin-left: 26px;
+      .user-tools{
+        .a{
+          div{
+            width: 13px;
+            height: 13px;
+            background-image: url(../assets/nav-icon.png);
           }
         }
       }
-  }
+    }
   }
 }
 
