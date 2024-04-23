@@ -89,6 +89,7 @@ export default{
             font-weight: 700;
             &:hover .menu-modal-hover{
             display: block;
+            cursor: pointer;
             
             }
             .menu-modal-hover{
@@ -117,6 +118,7 @@ export default{
                   font-weight: 300;
                   &:hover{
                     color: $company_yellow;
+                    cursor: pointer;
                   }
                 }
               }

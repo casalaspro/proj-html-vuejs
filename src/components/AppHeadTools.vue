@@ -47,6 +47,7 @@ section::after{
     }
 
     .head-tools{
+      color: $grey_text;
   font-size: 10px;
   .row{
     justify-content: space-between;
@@ -63,10 +64,11 @@ section::after{
         display: inline;
         &:nth-child(1){
           margin-right: 26px;
+          color: $grey_text;
           &::after{
             content: "";
             display: inline;
-            border-right: 1px solid white;
+            border-right: 1px solid $grey_text;
             margin-left: 26px;
           }
         }
