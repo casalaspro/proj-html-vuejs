@@ -1,6 +1,9 @@
 <script>
 import AppHero from './AppHero.vue';
 import AppFeatures from './AppFeatures.vue';
+import AppBanner from './AppBanner.vue';
+import AppSpecial from './AppSpecial.vue';
+import AppProducts from './AppProducts.vue';
 
 
 export default{
@@ -17,7 +20,10 @@ export default{
   },
   components:{
     AppHero,
-    AppFeatures
+    AppFeatures,
+    AppBanner,
+    AppSpecial,
+    AppProducts
   }
 }
 
@@ -27,9 +33,25 @@ export default{
   <section class="hero">
     <AppHero />
   </section>
+
   <section class="features">
     <AppFeatures />
   </section>
+
+  <section class="banner">
+    <AppBanner />
+  </section>
+
+  <section class="special">
+    <AppSpecial />
+  </section>
+
+  <section class="products">
+    <AppProducts />
+  </section>
+
+
+
 </template>
 
 <style lang="scss" scoped>
