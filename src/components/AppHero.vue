@@ -15,6 +15,7 @@ export default{
   },
   components:{
     
+    
   }
 }
 
@@ -23,7 +24,9 @@ export default{
 <template>
   
   <div class="hero">
+    <!-- <StickyButton /> -->
     <div class="container">
+      
       <div class="flag hero-flag"><h3>Upcoming Stock</h3></div>
       <h2 class="hero-title">Resident EVil 3 <br>Remake</h2>
       <button class="hero-button">Shop Now</button>

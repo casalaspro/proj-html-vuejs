@@ -3,6 +3,7 @@ import {store} from './store';
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
+import StickyButton from './components/StickyButton.vue';
 
 
 export default{
@@ -12,15 +13,18 @@ export default{
     }
   },
   methods:{
+    
 
   },
   created(){
     console.log(store);
+    console.log(document.documentElement.scrollTop);
   },
   components:{
     AppHeader,
     AppMain,
     AppFooter,
+    StickyButton,
 
   }
 }
@@ -28,18 +32,22 @@ export default{
 </script>
 
 <template>
-  <header>
-    <AppHeader />
-   </header>
+  <StickyButton />
+  
 
-   <main>
-    <AppMain />
-    
-   </main>
+    <header>
+      <AppHeader />
+     </header>
 
-   <footer>
-    <AppFooter />
-   </footer>
+     <main>
+      <AppMain />
+
+     </main>
+
+     <footer>
+      <AppFooter />
+     </footer>
+  <!-- </div> -->
 </template>
 
 <style lang="scss">
@@ -48,11 +56,16 @@ export default{
 
 footer{
   background-image: url(./assets/footer-bg.png);
-  // height: 324px;
-  // border: 1px solid white;
   background-size: cover;
-
 }
+
+header{
+  margin-top: -419px;
+}
+
+
+  
+
 
 
 

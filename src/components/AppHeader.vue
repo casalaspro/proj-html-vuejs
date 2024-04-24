@@ -38,26 +38,4 @@ export default{
 <style lang="scss" scoped>
 
 
-.navbar{
-  .container{
-    .row{
-      ul{
-        &.menu{
-          display: flex;
-
-        }
-      }
-      .user-tools{
-        .a{
-          div{
-            width: 13px;
-            height: 13px;
-            background-image: url(../assets/nav-icon.png);
-          }
-        }
-      }
-    }
-  }
-}
-
 </style>
