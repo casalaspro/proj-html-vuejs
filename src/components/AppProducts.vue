@@ -76,7 +76,7 @@ export default{
                   <p class="discounted-price">£90.00</p>
                 </div>
               </div>
-              <div class="flag flag-discount"><h5 class="flag-title">-44%</h5></div>
+              
             </div>
           </div>
 
@@ -116,11 +116,10 @@ export default{
                 </div>
                 <h5 class="product-name">Shopping Mahjong connect</h5>
                 <div class="product-price">
-                  <p class="old-price">£180.00</p>
                   <p class="discounted-price">£100.00</p>
                 </div>
               </div>
-              <div class="flag flag-discount"><h5 class="flag-title">-44%</h5></div>
+              
             </div>
           </div>
 
