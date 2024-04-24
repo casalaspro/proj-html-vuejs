@@ -1,5 +1,6 @@
 <script>
 import AppHero from './AppHero.vue';
+import AppFeatures from './AppFeatures.vue';
 
 
 export default{
@@ -15,7 +16,8 @@ export default{
     
   },
   components:{
-    AppHero
+    AppHero,
+    AppFeatures
   }
 }
 
@@ -24,6 +26,9 @@ export default{
 <template>
   <section class="hero">
     <AppHero />
+  </section>
+  <section class="features">
+    <AppFeatures />
   </section>
 </template>
 
