@@ -166,6 +166,7 @@ export default{
       }
       .card-img{
         height: 210px;
+        width: 100%;
       }
       .card-info{
         background-color: $company_black-purple;
