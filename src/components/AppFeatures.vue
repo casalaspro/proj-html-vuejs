@@ -21,7 +21,6 @@ export default{
 </script>
 
 <template>
-  <section>
     <div class="features">
       <div class="container">
         <div class="row">
@@ -77,12 +76,14 @@ export default{
         </div>
       </div>
     </div>
-  </section>
-  
+
 </template>
 
 <style lang="scss" scoped>
 @use '../style/variables' as *;
+.features{
+  padding: 59px 0;
+}
 .col-3{
   .delivery-wrap{
     padding-left: 30px;
@@ -93,7 +94,7 @@ export default{
       background-size: 100%;
       flex-shrink: 0;
       margin-right: 10px;
-      
+
       &.delivery{
         width: 37px;
         height: 26px;
