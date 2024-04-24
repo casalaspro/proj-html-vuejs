@@ -1,4 +1,17 @@
+@use './variables' as *;
+
 .row{
   display: flex;
   flex-wrap: wrap;
+}
+
+.flag{
+  transform: skew(-30deg);
+  background-color: $company_yellow;
+}
+
+.flag-title{
+  transform: skew(30deg);
+  color: black;
+  // font-style: italic;
 }

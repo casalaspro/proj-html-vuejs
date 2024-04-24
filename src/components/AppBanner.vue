@@ -66,7 +66,6 @@ export default{
     background-color: $company_yellow;
     padding: 0px 10px;
     width: 135px;
-    transform: skew(-30deg);
     margin-bottom: 20px;
     // position: relative;
     h3{
