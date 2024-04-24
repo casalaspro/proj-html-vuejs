@@ -1,4 +1,5 @@
 <script>
+import AppHero from './AppHero.vue';
 
 
 export default{
@@ -14,14 +15,16 @@ export default{
     
   },
   components:{
-
+    AppHero
   }
 }
 
 </script>
 
 <template>
-  
+  <section class="hero">
+    <AppHero />
+  </section>
 </template>
 
 <style lang="scss" scoped>
