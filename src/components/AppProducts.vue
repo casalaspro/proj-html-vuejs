@@ -34,8 +34,19 @@ export default{
       </div>
     </div>
     <div class="products-cards">
+      
       <div class="container">
         <div class="row">
+
+          <!-- <div class="col-12">
+
+            
+              <div class="carousel-buttons">
+                <div class="button button-left"></div>
+                <div class="button button-right"></div>
+               </div>
+           
+          </div> -->
 
           <div class="col-3">
             <div class="card">
@@ -154,6 +165,32 @@ export default{
     }
   }
   .products-cards{
+    .row{
+      .carousel-buttons{
+      display: flex;
+      justify-content: space-between;
+      // margin-left: -10px;
+      // margin-right: -10px;
+      // width: 100%;
+      // position: absolute;
+      // z-index: 10;
+
+      .button{
+        background-image: url(../assets/arrow.png);
+        width: 20px;
+        height: 20px;
+        // border: 1px solid white;
+        background-size: 268%;
+        &.button-left{
+        background-position: 0px 0px;
+        }
+        &.button-right{
+        background-position: 0px 0px;
+        }
+      }
+    }
+    }
+    
     .card{
       position: relative;
       .flag-discount{
