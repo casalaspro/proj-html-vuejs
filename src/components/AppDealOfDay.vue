@@ -24,13 +24,14 @@ export default{
 
   <div class="products">
     <div class="container">
-      <h4 class="section-title">Our Products</h4>
+      <h4 class="section-title">Deal Of The Day</h4>
     </div>
     <div class="container">
       <div class="products-selection row">
-        <h5 class="products-selection_titles">Featured</h5>
-        <h5 class="products-selection_titles">New Arrival</h5>
-        <h5 class="products-selection_titles">Best Sellers</h5>
+        <h5 class="products-selection_titles">1026 days</h5>
+        <h5 class="products-selection_titles">13 hours</h5>
+        <h5 class="products-selection_titles">24 minutes</h5>
+        <h5 class="products-selection_titles">17 seconds</h5>
       </div>
     </div>
     <div class="products-cards">

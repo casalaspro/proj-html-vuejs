@@ -27,14 +27,14 @@ export default{
       <div class="row">
         <div class="col-6">
           <div class="card ship">
-            <div class="flag"><h3>Most Popular</h3></div>
-            <h3 class="banner-title">The Battelfield 4<br>Naval Strike</h3>
+            <div class="flag"><h3>20% Discount</h3></div>
+            <h3 class="banner-title">Dragon's Dogma<br>Video Game</h3>
           </div>
         </div>
         <div class="col-6">
           <div class="card war">
-            <div class="flag"><h3>Latest Game</h3></div>
-            <h3 class="banner-title">Assansins<br>Unity Game</h3>
+            <div class="flag"><h3>30% Discount</h3></div>
+            <h3 class="banner-title">World of Tanks<br>New Game</h3>
           </div>
         </div>
       </div>
@@ -45,7 +45,6 @@ export default{
 
 <style lang="scss" scoped>
 @use '../style/variables' as *;
-
 .row{
   margin-right: -$half_gutter;
   margin-left: -$half_gutter;
@@ -59,15 +58,15 @@ export default{
     background-size: cover;
     padding: 55px 0 55px 44%;
     &.ship{
-      background-image: url(../assets/cms-banner-01.jpg);
+      background-image: url(../assets/cms-banner-03.jpg);
     }
     &.war{
-      background-image: url(../assets/cms-banner-02.jpg);
+      background-image: url(../assets/cms-banner-04.jpg);
     }
     .flag{
     background-color: $company_yellow;
     padding: 0px 10px;
-    width: 135px;
+    width: 139px;
     margin-bottom: 20px;
     // position: relative;
     h3{

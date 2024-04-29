@@ -4,6 +4,8 @@ import AppFeatures from './AppFeatures.vue';
 import AppBanner from './AppBanner.vue';
 import AppSpecial from './AppSpecial.vue';
 import AppProducts from './AppProducts.vue';
+import AppBannerDiscount from './AppBannerDiscount.vue';
+import AppDealOfDay from './AppDealOfDay.vue';
 
 
 export default{
@@ -23,7 +25,9 @@ export default{
     AppFeatures,
     AppBanner,
     AppSpecial,
-    AppProducts
+    AppProducts,
+    AppBannerDiscount,
+    AppDealOfDay
   }
 }
 
@@ -48,6 +52,14 @@ export default{
 
   <section class="products">
     <AppProducts />
+  </section>
+
+  <section class="discount">
+    <AppBannerDiscount />
+  </section>
+
+  <section class="deals">
+    <AppDealOfDay />
   </section>
 
 
