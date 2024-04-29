@@ -64,7 +64,7 @@ export default{
 
           <div class="col-3">
             <div class="card">
-              <img class="card-img" src="../assets/09-327x327.jpg" alt="joypad">
+              <img class="card-img" src="../assets/18-327x327.jpg" alt="joypad">
               <div class="card-info">
                 <div class="product-rating">
                   <span class="star full-star"><font-awesome-icon :icon="['fas', 'star']" /></span>
@@ -73,7 +73,7 @@ export default{
                   <span class="star full-star"><font-awesome-icon :icon="['fas', 'star']" /></span>
                   <span class="star empty-star"><font-awesome-icon :icon="['fas', 'star']" /></span>
                 </div>
-                <h5 class="product-name">Buddy and Lucky Solitair</h5>
+                <h5 class="product-name">BangBangShooting</h5>
                 <div class="product-price">
                   <p class="discounted-price">£83.00</p>
                   <p class="old-price">-</p>
@@ -86,7 +86,7 @@ export default{
 
           <div class="col-3">
             <div class="card">
-              <img class="card-img" src="../assets/03-327x327.jpg" alt="joypad">
+              <img class="card-img" src="../assets/02-327x327.jpg" alt="joypad">
               <div class="card-info">
                 <div class="product-rating">
                   <span class="star empty-star"><font-awesome-icon :icon="['fas', 'star']" /></span>
@@ -95,7 +95,7 @@ export default{
                   <span class="star empty-star"><font-awesome-icon :icon="['fas', 'star']" /></span>
                   <span class="star empty-star"><font-awesome-icon :icon="['fas', 'star']" /></span>
                 </div>
-                <h5 class="product-name">Taishou x Alice Epilogue</h5>
+                <h5 class="product-name">Buddy and Lucky Solitair</h5>
                 <div class="product-buttons">
                   <span class="col-3 p-button bag"><font-awesome-icon :icon="['fas', 'bag-shopping']" /></span>
                   <span class="col-3 p-button heart"><font-awesome-icon :icon="['fas', 'heart']" /></span>
@@ -109,7 +109,7 @@ export default{
 
           <div class="col-3">
             <div class="card">
-              <img class="card-img" src="../assets/11-327x327.jpg" alt="joypad">
+              <img class="card-img" src="../assets/10-327x327.jpg" alt="joypad">
               <div class="card-info">
                 <div class="product-rating">
                   <span class="star full-star"><font-awesome-icon :icon="['fas', 'star']" /></span>
@@ -118,7 +118,7 @@ export default{
                   <span class="star full-star"><font-awesome-icon :icon="['fas', 'star']" /></span>
                   <span class="star empty-star"><font-awesome-icon :icon="['fas', 'star']" /></span>
                 </div>
-                <h5 class="product-name">Shopping Mahjong connect</h5>
+                <h5 class="product-name">Taishou x Alice Epilogue</h5>
                 <div class="product-price">
                   <p class="discounted-price">£100.00</p>
                 </div>
@@ -161,7 +161,7 @@ export default{
     justify-content: center;
     margin-bottom: 23px;
     .products-selection_titles{
-      padding: 16px 25px;
+      padding: 10px 25px;
       border: 1px solid $separation_lines;
       cursor: pointer;
       &:hover{
